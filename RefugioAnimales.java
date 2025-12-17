@@ -158,9 +158,9 @@ public class RefugioAnimales {
                 case 4 -> animalesDisponibles();
                 case 5 -> animalesAdoptados();
                 case 6 -> reporteGeneral();
-                case 0 -> System.out.println("Saliendo del programa...");
+                case 7 -> System.out.println("Saliendo del programa...");
                 default -> System.out.println("Opción inválida");
             }
-        } while (opcion != 0);
+        } while (opcion != 7);
     }
 }
